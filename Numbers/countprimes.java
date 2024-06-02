@@ -5,6 +5,9 @@ class countprimes{
         Scanner s=new Scanner(System.in);
         System.out.println("Enter the number:");
         int n=s.nextInt();
+        if(n<2){
+            System.out.println(0);
+        }
         for(int i=2;i<n;i++){
             int c=0;
             for(int j=2;j<=i;j++){
@@ -15,6 +18,9 @@ class countprimes{
             if(c==1){
                 System.out.println(i);
             }
+
         }
+    
     }
+
 }
