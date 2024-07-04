@@ -1,0 +1,27 @@
+/*
+      * * * * * 
+      * * * * 
+      * * * 
+      * * 
+      * 
+*/
+
+
+
+
+
+
+import java.util.Scanner;
+class pattern5{
+    public static void main(String[]args){
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter the number of lines:");
+        int r=s.nextInt();
+        for(int i=r;i>=1;i--){
+            for(int j=i;j>=1;j--){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
